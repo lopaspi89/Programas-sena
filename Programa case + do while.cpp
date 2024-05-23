@@ -5,7 +5,7 @@ int main()
 int num;
 
     do{
-        std::cout << "ingrese numero no mayor a 2 cifras" << std::endl;
+        std::cout << "ingrese numero no mayor a 10 cifras" << std::endl;
         std::cin >> num;
         
         switch (num){
@@ -18,7 +18,7 @@ int num;
             
             case 95:
             
-				std::cout<< "perdiste" <<std::endl;
+				std::cout<< "ganaste" <<std::endl;
 	
 			break;	
 			
